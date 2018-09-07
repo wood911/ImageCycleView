@@ -108,8 +108,8 @@ class ImageCycleView: UIView, UICollectionViewDelegate, UICollectionViewDataSour
         
         let pageControl = UIPageControl()
         pageControl.hidesForSinglePage = true
-        pageControl.pageIndicatorTintColor = UIColor.hex(0xFFFFFF, 0.8)
-        pageControl.currentPageIndicatorTintColor = UIColor.hex(0x5BA0FF)
+        pageControl.pageIndicatorTintColor = UIColor(white: 1, alpha: 0.8)
+        pageControl.currentPageIndicatorTintColor = UIColor(red: 91.0/255.0, green: 160.0/255.0, blue: 1, alpha: 1)
         self.addSubview(pageControl)
         pageControl.snp.makeConstraints({ (make) in
             make.centerX.equalToSuperview()
