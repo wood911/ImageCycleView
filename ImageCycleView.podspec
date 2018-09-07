@@ -8,13 +8,14 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "woodwu" => "powerwtf@live.com" }
   s.social_media_url   = "https://github.com/woodpower/"
+  
+  s.swift_version = "4.0"
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/woodpower/ImageCycleView.git", :tag => "#{s.version}" }
   s.source_files  = "Source/*.swift"
-  s.exclude_files = "Source/Exclude"
   s.frameworks = "Foundation", "UIKit"
   s.requires_arc = true
-  s.dependency "Kingfisher", "~> 4.0"
+  s.dependency "Kingfisher", "~> 4.7.0"
 
 end
