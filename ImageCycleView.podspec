@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ImageCycleView"
   s.version      = "0.0.1"
-  s.summary      = "A short description of ImageCycleView."
+  s.summary      = "Swift版的图片轮播轻量级框架。"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/ImageCycleView"
+  s.homepage     = "https://github.com/woodpower/ImageCycleView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
